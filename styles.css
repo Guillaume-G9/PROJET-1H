@@ -62,7 +62,6 @@ h2 {
 
 .container1 {
     padding: 6% 5% 8% 5%;
-    /* height: 400px; */
     text-align: center;
 }
 
@@ -71,19 +70,18 @@ section .bloc1 p {
     width: 45%;
 }
 
-.section h2 .bloc1 {
+.section h2,
+.bloc1 {
     padding-left: 8%;
     font-size: 18px;
     width: 85%;
     display: flex;
     flex-direction: row;
     text-align: left;
-    /* justify-content: space-between; */
 }
 
 .container2 {
     padding: 6% 5% 3% 5%;
-    /* height: 400px; */
     display: flex;
     justify-content: space-around;
     align-content: center;
