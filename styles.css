@@ -71,7 +71,7 @@ section .bloc1 p {
     width: 45%;
 }
 
-.bloc1 {
+.section h2 .bloc1 {
     padding-left: 8%;
     font-size: 18px;
     width: 85%;
@@ -155,11 +155,11 @@ footer {
     }
     .image {
         margin-top: 3%;
-        width: 35%;
+        width: 40%;
         margin-right: 0;
     }
     footer {
-        height: 0;
+        height: 100px;
     }
 }
 
@@ -175,7 +175,12 @@ footer {
         margin-left: -1%;
     }
     header p:nth-child(3) {
+        font-size: 12px;
         text-align: center;
+    }
+    .bloc1,
+    .bloc2 {
+        font-size: 12px;
     }
     h1 {
         text-align: center;
@@ -189,6 +194,7 @@ footer {
     }
     .button {
         position: absolute;
+        margin-left: -18%;
         margin-top: 8%;
         background-color: #FCA311;
         color: #14213D;
@@ -196,5 +202,8 @@ footer {
         font-weight: 400;
         padding: 01% 2% 2% 3%;
         border-radius: 17px;
+    }
+    footer {
+        height: 100px;
     }
 }
