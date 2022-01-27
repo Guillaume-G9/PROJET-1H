@@ -119,8 +119,13 @@ footer {
     }
     .bloc1 {
         display: flex;
+        margin-top: -5%;
+        text-align: center;
         flex-direction: column;
         align-items: center;
+    }
+    .bloc1 p {
+        margin: 0 0 0 0;
     }
     .container2 {
         flex-direction: column;
@@ -129,9 +134,10 @@ footer {
         padding-top: 0;
     }
     .bloc2 {
-        text-align: justify;
+        text-align: center;
     }
     .image {
+        margin-top: 3%;
         width: 35%;
         margin-right: 0;
     }
