@@ -95,6 +95,10 @@ section .bloc1 p {
     margin-right: 14%
 }
 
+.image:hover {
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.411);
+}
+
 footer {
     height: 150px;
 }
@@ -156,5 +160,41 @@ footer {
     }
     footer {
         height: 0;
+    }
+}
+
+@media all and (max-width: 500px) {
+    header {
+        height: 300px;
+    }
+    header p {
+        margin-bottom: -7%;
+        padding-bottom: 5%;
+    }
+    header p:first-child {
+        margin-left: -1%;
+    }
+    header p:nth-child(3) {
+        text-align: center;
+    }
+    h1 {
+        font-weight: 400;
+        font-size: 25px;
+        margin-bottom: -0.01%
+    }
+    h2 {
+        font-weight: 400;
+        font-size: 31px;
+    }
+    .button {
+        position: absolute;
+        margin-left: -18%;
+        margin-top: 8%;
+        background-color: #FCA311;
+        color: #14213D;
+        font-size: 20px;
+        font-weight: 400;
+        padding: 01% 2% 2% 3%;
+        border-radius: 17px;
     }
 }
