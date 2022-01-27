@@ -10,6 +10,7 @@ a {
 
 header p:first-child {
     font-size: x-small;
+    margin-left: -3%
 }
 
 header {
@@ -50,12 +51,19 @@ h2 {
     border-radius: 17px;
 }
 
+.button:hover {
+    background-color: #24ce7f;
+    transition-duration: 500ms;
+}
+
+.button:not( :hover) {
+    transition-duration: 500ms;
+}
+
 .container1 {
     padding: 6% 5% 8% 5%;
     /* height: 400px; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 
 section .bloc1 p {
@@ -64,11 +72,13 @@ section .bloc1 p {
 }
 
 .bloc1 {
+    padding-left: 8%;
     font-size: 18px;
     width: 85%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    text-align: left;
+    /* justify-content: space-between; */
 }
 
 .container2 {
@@ -82,7 +92,7 @@ section .bloc1 p {
 
 .image {
     height: 65%;
-    margin-right: 10%
+    margin-right: 14%
 }
 
 footer {
@@ -96,6 +106,9 @@ footer {
     header p {
         margin-bottom: -7%;
         padding-bottom: 5%;
+    }
+    header p:first-child {
+        margin-left: 0.5%
     }
     h1 {
         font-weight: 400;
@@ -114,7 +127,7 @@ footer {
         color: #14213D;
         font-size: 20px;
         font-weight: 400;
-        padding: 0.5% 2% 0.7% 2%;
+        padding: 01% 2% 2% 3%;
         border-radius: 17px;
     }
     .bloc1 {
